@@ -42,6 +42,11 @@ public class AppController {
 		return null;
 	}
 	
+	@GetMapping("/detail/{ag}")
+	public String getAge(@PathVariable("ag")int age) {
+		return " Age is : "+age;
+	}
+	
 	@GetMapping("/detail/{nm},{ag}")
 	public String getDetail(@PathVariable("nm")String name,@PathVariable("ag")int age) {
 		return "Name is : "+name+" Age : "+age;
