@@ -27,7 +27,7 @@ This is a simple Spring Boot REST API for managing student information, providin
 - **Example:** `/student/detail/30` returns "My age is 30"
     ## output
 
-     ![four](/outputs/4.png)
+     ![four](/outputs/4.PNG)
 
 ### 2. Age and Name Endpoints
 - **URL:** `/student/detail/{nm},{ag}`
@@ -37,7 +37,7 @@ This is a simple Spring Boot REST API for managing student information, providin
     ## output
 
      
-![three](/outputs/3.png)
+![three](/outputs/3.PNG)
       
 
 ### 3. Get All Students
@@ -46,7 +46,7 @@ This is a simple Spring Boot REST API for managing student information, providin
 - **Description:** Returns a list of all predefined students
     ## output
 
-![one](/outputs/1.png)
+![one](/outputs/1.PNG)
 
 ### 4. Get Student by Registration Number
 - **URL:** `/students/id/{id}`
@@ -55,7 +55,7 @@ This is a simple Spring Boot REST API for managing student information, providin
 - **Example:** `/students/id/743`
      ## output
 
-![two](/outputs/2.png) 
+![two](/outputs/2.PNG) 
     
 ## Student Model
 The `Student` class has the following attributes:
